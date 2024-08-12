@@ -8,7 +8,6 @@ class TestWebPageTitle {
 
 	@Test
 	void test() {
-        String metricUnitsTab = "Metric Units";
         String expectedTitle = "Carbohydrate Calculator";
 		
 		System.setProperty("webdriver.chrome.driver", "/Users/feminachacko/Downloads/chromedriver");
@@ -19,9 +18,7 @@ class TestWebPageTitle {
 		System.out.println(driver.getTitle());
 		
 		Assertions.assertEquals(driver.getTitle(), expectedTitle);
-		
-		System.out.println(metricUnitsTab);
-		
+				
 		driver.quit();
 	}
 
