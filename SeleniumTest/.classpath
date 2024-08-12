@@ -5,7 +5,9 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/5"/>
 	<classpathentry kind="src" path="src"/>
+	<classpathentry excluding="src/" kind="src" path=""/>
 	<classpathentry kind="lib" path="/Users/feminachacko/Downloads/selenium-java-4.23.0/auto-service-annotations-1.1.1-sources.jar"/>
 	<classpathentry kind="lib" path="/Users/feminachacko/Downloads/selenium-java-4.23.0/selenium-support-4.23.0.jar"/>
 	<classpathentry kind="lib" path="/Users/feminachacko/Downloads/selenium-java-4.23.0/selenium-support-4.23.0-sources.jar"/>
